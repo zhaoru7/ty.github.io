@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>闲鱼之王国际服下载</title>
+    <link href="32.png" rel="icon" sizes="32x32"/>
+    <link href="192.png" rel="icon" sizes="192x192"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+    <style>
+        html, body, main{
+            height: 60%;
+        }
+
+        body{
+            margin: 0;
+            user-select: none;
+            font: lighter 16px "微软雅黑";
+        }
+        body:before{
+            content: '';
+            z-index: -1;
+            width: 3000px;
+            height: 3000px;
+            display: block;
+            position: fixed;
+            top: calc(50% - 1500px);
+            left: calc(50% - 1500px);
+            animation: bg-rotate 15s infinite linear;
+            background: linear-gradient(45deg, #20b57d 40%, #258ec5 60%);
+        }
+
+        @keyframes bg-rotate {
+            0%{ transform: rotate(0) }
+            100%{ transform: rotate(360deg) }
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        main{
+            display: table;
+            margin: 0 auto;
+        }
+
+        .content{
+            padding-top: 50px;
+            padding-bottom: 70px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .logo{
+            margin-bottom: 50px;
+        }
+        .logo img{
+            height: auto;
+            max-width: 200px;
+            border-radius: 100%;
+            border: 3px solid #fff;
+            transition: transform 0.3s;
+        }
+        .logo img:hover{
+            transform: scale(1.1, 1.1) rotate(1turn);
+        }
+
+        .links{
+            max-width: 300px;
+        }
+        .links a{
+            color: #fff;
+            display: block;
+            min-width: 80px;
+            padding: 1em 2em;
+            text-align: center;
+            margin-bottom: 1em;
+            border-radius: 100px;
+            border: #fff 1px solid;
+            transition: background 0.3s, color 0.3s, opacity 0.3s, transform 0.3s;
+        }
+        .links a:hover{
+            color: #258ec5;
+            background: #fff;
+            transform: scale(1.1, 1.1);
+        }
+        .links a:active{
+            opacity: 0.7;
+            transform: scale(0.9, 0.9);
+        }
+        .links a:last-child{
+            margin-bottom: 0;
+        }
+
+        footer{
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: #fff;
+            position: fixed;
+            text-align: center;
+        }
+        footer a{
+            color: inherit;
+        }
+    </style>
+</head>
+	<!-- 注释：17行圆圈纵向大小 47行全部界面整体上下移动  53行LOGO跟下面字的距离 59行LOGO跟全部圆圈大小 61行LOGO白色圆圈粗细 62行LOGO转动频率  -->
+<body>
+<main class="container">
+    <div class="content">
+        <div class="logo">
+            <img src="avatar.jpg" alt="闲鱼之王" />
+        </div>
+        <div class="links">
+            <a href="http://baidu.com">注册账号</a>
+            <a href="http://baidu.com">安卓下载</a>
+            <a href="http://sougou.com">苹果下载</a>
+			<a href="http://souhu.com">在线客服</a>.</p>
+</footer>
+</body>
+</html>
